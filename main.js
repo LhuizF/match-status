@@ -21,7 +21,7 @@ function drawChart() {
   );
 
   data.addRows(dataArray);
-
+  console.log(dataArray)
   const options = {
     title: `Prontos atuais: ${totalPoints}`,
     titleTextStyle: { color: '#FFFFFF' },
